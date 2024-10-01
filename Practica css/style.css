@@ -1,0 +1,166 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3e5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h2.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+p.subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+p.subtitle a {
+    color: #1803bc;
+    text-decoration: none;
+}
+
+p.subtitle a:hover {
+    text-decoration: underline;
+}
+
+/* Botones de inicio de sesión con redes sociales */
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button.google-btn {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 80%;
+    justify-content: center;
+}
+button.fb-btn{
+    background-color: white;
+    border: 1px solid #4c489b;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 20%;
+    justify-content: center;
+}
+
+button.google-btn:hover, button.fb-btn:hover {
+    background-color: #f0f0f0;
+}
+
+button.google-btn img {
+    width: 30px;
+    margin-right: 10px;
+}
+button.fb-btn img{
+    width: 30px;
+
+}
+
+button.google-btn .btn-text, button.fb-btn .btn-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+
+/* Separador de "o" */
+p.or {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #999;
+}
+
+p.or span {
+    background-color: white;
+    padding: 0 10px;
+}
+
+p.or:before, p.or:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+
+/* Campos de inicio de sesión */
+.email-login {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.email-login label {
+    font-size: 17px;
+    color: #a9a9a9;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.email-login input {
+    width: 100%;
+    padding: 17px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Botón de inicio de sesión */
+button.cta-btn {
+    background-color: #4644b6;
+    color: white;
+    padding: 25px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button.cta-btn:hover {
+    background-color: #4644b6;
+}
+
+/* Enlace de olvidar contraseña */
+a.forget-pass {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #4644b6;
+    text-decoration: none;
+}
+
+a.forget-pass:hover {
+    text-decoration: underline;
+}
