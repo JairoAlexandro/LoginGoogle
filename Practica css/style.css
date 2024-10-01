@@ -63,7 +63,7 @@ button.google-btn {
 }
 button.fb-btn{
     background-color: white;
-    border: 2px solid #4c489b;
+    border: 2px solid #ddd;
     border-radius: 7px;
     display: flex;
     align-items: center;
@@ -74,7 +74,7 @@ button.fb-btn{
 }
 
 button.google-btn:hover, button.fb-btn:hover {
-    background-color: #f0f0f0;
+    border: 3px solid #4c489b;
 }
 
 button.google-btn img {
@@ -150,7 +150,7 @@ button.cta-btn {
 }
 
 button.cta-btn:hover {
-    background-color: #4644b6;
+    background-color: #1d1bbd;
 }
 
 /* Enlace de olvidar contraseña */
